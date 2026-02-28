@@ -31,6 +31,7 @@ public class RingBuffer<T> {
     }
 
     // package-private: used by reader
+    @SuppressWarnings("unchecked")
     T readInternal(int index) {
         return (T) data[index];
     }
