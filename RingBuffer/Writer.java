@@ -1,3 +1,4 @@
+package RingBuffer;
 public final class Writer<T> {
 
     private final RingBuffer<T> buffer;
